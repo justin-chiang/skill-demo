@@ -5,6 +5,7 @@ public class SkillDemoTest {
     
     @Test
     public void testGetLength(){
-        assertEquals(4, SkillDemo.getLength("hello")); // failing test case
+        assertEquals(5, SkillDemo.getLength("hello")); // working test case
     }
 }
+
